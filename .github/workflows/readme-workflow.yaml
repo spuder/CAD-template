@@ -20,6 +20,7 @@ jobs:
         run: |
           ls 
           cd stl
+          unset DISPLAY
           for i in *.stl; do
             T=__tmp__$i
             b=`basename $i`
