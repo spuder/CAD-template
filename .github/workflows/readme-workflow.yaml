@@ -35,8 +35,7 @@ jobs:
       - uses: EndBug/add-and-commit@v7
         with:
           message: ":camera:  Generate png images from STL"
-          files:
-            - "stl/*.png"
+          add: "stl/*.png"
       # - name: Get changed files
       #   id: changed-files
       #   uses: tj-actions/changed-files@v2.0.0
