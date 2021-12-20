@@ -16,11 +16,12 @@ jobs:
         run: which openscad
       - name: Generate png images from STL
         run: |
-          for i in stl/*.stl; do
+          cd stl
+          for i in *.stl; do
             T=__tmp__$i
             b=`basename $i`
             echo import\(\"$i\"\)\; >$T
-            OpenSCAD -o $b.png --imgsize=200,200 $T
+            /usr/bin/openscad -o $b.png --imgsize=200,200 $T
             rm $T
           done
       - name: Get changed files
