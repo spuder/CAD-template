@@ -8,5 +8,5 @@
         "search": "[year]",
         "replace": "DATETIME",
         "eval": true
-    }
+    },
 ]

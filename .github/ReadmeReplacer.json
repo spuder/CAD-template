@@ -1,0 +1,7 @@
+[
+    {
+        "search": "$REPOSITORY_NAME",
+        "replace": "$REPOSITORY_NAME",
+        "eval": true
+    }
+]

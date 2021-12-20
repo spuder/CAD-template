@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
-  replace:
+  replace_license:
     runs-on: ubuntu-latest
     name: Replace placeholders in License
     steps:
@@ -19,4 +19,17 @@ jobs:
         with:
           TEMPLATE_FILE: 'templates/License.template'
           COMMIT_FILE: 'LICENSE.txt'
-          CUSTOM_REPLACER_FILE: './.github/customReplacer.json'
+          CUSTOM_REPLACER_FILE: './.github/LicenseReplacer.json'
+  replace_readme:
+    runs-on: ubuntu-latest
+    name: Replace placeholders in README
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Readme-Workflows/readme-replacer@v1.0.1
+        env:
+          DATE_FORMAT: yyyy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          TEMPLATE_FILE: 'templates/README.template'
+          COMMIT_FILE: 'README.md'
+          CUSTOM_REPLACER_FILE: './.github/readmeReplacer.json'
