@@ -1,13 +1,12 @@
 # fusion360-template
 
 
+### :crystal_ball: STL files
 
-### :office: STL files
-
-![](./stl/cube.stl)
+![](./stl/cube.stl.png)
 
 ### :triangular_ruler: Fusion 360 files
 
 
 ---
-The contents of this readme were automatically generated from [this template](https://github.com/spuder/fusion360-template) using [github actions](https://github.com/spuder/fusion360-template/actions) :octocat:
+The contents of this readme were automatically generated from [:notebook: this template](https://github.com/spuder/fusion360-template) using [ :octocat: github actions](https://github.com/spuder/fusion360-template/actions) 
