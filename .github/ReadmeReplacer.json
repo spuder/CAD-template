@@ -1,7 +1,7 @@
 [
     {
         "search": "{{ REPOSITORY_NAME }}",
-        "replace": "{{ github.repository_name }}",
+        "replace": "{{ github.event.repository.name }}",
         "eval": true
     }
 ]
