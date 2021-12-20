@@ -17,6 +17,6 @@ jobs:
           DATE_FORMAT: yyyy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          TEMPLATE_FILE: '/templates/License.template'
-          COMMIT_FILE: '/.License.txt'
+          TEMPLATE_FILE: 'templates/License.template'
+          COMMIT_FILE: 'License.txt'
           CUSTOM_REPLACER_FILE: './.github/customReplacer.json'
