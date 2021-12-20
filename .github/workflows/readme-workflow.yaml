@@ -14,8 +14,12 @@ jobs:
         run: sudo apt update && sudo apt install -y openscad
       - name: find openscad
         run: which openscad
+      - name: actions/checkout@v2
+        with:
+          ref: $GITHUB_REF
       - name: Generate png images from STL
         run: |
+          ls 
           cd stl
           for i in *.stl; do
             T=__tmp__$i
