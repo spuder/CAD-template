@@ -48,4 +48,4 @@ jobs:
         with:
           TEMPLATE_FILE: 'templates/README.template'
           COMMIT_FILE: 'README.md'
-          CUSTOM_REPLACER_FILE: './.github/readmeReplacer.json'
+          CUSTOM_REPLACER_FILE: './.github/ReadmeReplacer.json'
