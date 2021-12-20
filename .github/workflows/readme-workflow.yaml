@@ -40,6 +40,7 @@ jobs:
 
   replace_readme:
     name: Replace placeholders in README
+    needs: [generate_stl_previews]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
