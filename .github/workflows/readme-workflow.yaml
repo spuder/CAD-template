@@ -8,6 +8,7 @@ on:
 
 jobs:
   generate_stl_previews:
+    name: Generate STL Previews
     runs-on: ubuntu-latest
     steps:
       - name: install openscad
@@ -38,8 +39,8 @@ jobs:
           add: "stl/*.png"
 
   replace_readme:
-    runs-on: ubuntu-latest
     name: Replace placeholders in README
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: Readme-Workflows/readme-replacer@v1.0.1
