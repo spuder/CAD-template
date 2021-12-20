@@ -1,11 +1,14 @@
 # fusion360-template
 
 
-### :crystal_ball: STL files
+## :crystal_ball: STL files
 
-![](./stl/cube.stl.png)
+| | |
+|---|---|
+| [Cube.stl](./stl/cube.stl)|![](./stl/cube.stl.png) | 
 
-### :triangular_ruler: Fusion 360 files
+
+## :triangular_ruler: Fusion 360 files
 
 
 ---
