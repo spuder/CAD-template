@@ -7,6 +7,30 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
+  generate_stl_previews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install openscad
+        run: apt update && apt install -y openscad
+      - name: find openscad
+        run: which openscad
+      - name: Generate png images from STL
+        run: |
+          for i in stl/*.stl; do
+            T=__tmp__$i
+            b=`basename $i`
+            echo import\(\"$i\"\)\; >$T
+            OpenSCAD -o $b.png --imgsize=200,200 $T
+            rm $T
+          done
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v2.0.0
+      # - name: Pre-commit
+      #   uses: pre-commit/action@v2.0.0
+      #   with:
+      #     extra_args: -v --hook-stage push --files ${{ steps.changed-files.outputs.all_changed_files }}
+      #     token: ${{ secrets.github_token }}
   replace_readme:
     runs-on: ubuntu-latest
     name: Replace placeholders in README
