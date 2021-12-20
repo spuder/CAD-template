@@ -1,4 +1,4 @@
-# {{ REPOSITORY_NAME }}
+# REPOSITORY_NAME
 
 
 
