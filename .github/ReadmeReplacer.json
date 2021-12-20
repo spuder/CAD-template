@@ -1,7 +1,7 @@
 [
     {
-        "search": "REPOSITORY_NAME",
-        "replace": "FOOBAR",
-        "eval": false
+        "search": "{{ REPOSITORY_NAME }}",
+        "replace": "{{ github.repository_name }}",
+        "eval": true
     }
 ]
