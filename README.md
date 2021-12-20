@@ -4,6 +4,6 @@
 
 ### STL files
 
-![](./stl/foo.stl)
+![](./stl/cube.stl)
 
 ### Fusion 360 files
