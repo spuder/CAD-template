@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install openscad
-        run: sudo apt update && sudo apt install -y openscad xvfb
+        run: sudo apt update && sudo apt install -y -q openscad xvfb
       - name: find openscad
         run: which openscad
       - uses: actions/checkout@v2
       # https://3dprinting.stackexchange.com/a/6048/28932
+      # http://elementalselenium.com/tips/38-headless
       - name: Generate png images from STL
         run: |
-          ls 
           cd stl
           Xvfb :99 & export DISPLAY=:99
           for i in *.stl; do
