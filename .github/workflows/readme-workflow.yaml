@@ -1,0 +1,22 @@
+name: Generate Readme
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    name: Replace placeholders in License
+  steps:
+    - uses: actions/checkout@v2
+    - uses: Readme-Workflows/readme-replacer@v1.0.1
+      env:
+        DATE_FORMAT: yyyy
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        TEMPLATE_FILE: './TEMPLATE.md'
+        COMMIT_FILE: '/.License.txt'
+        CUSTOM_REPLACER_FILE: './.github/customReplacer.json'
