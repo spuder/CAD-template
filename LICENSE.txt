@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Monday, December 20th, 2021, 3:26:43 AM [fullname]
+Copyright (c) 2020, Spencer Owen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
