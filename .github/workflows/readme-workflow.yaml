@@ -22,6 +22,7 @@ jobs:
       - name: Generate png images from STL
         run: |
           cd stl
+          ls
           Xvfb :99 & export DISPLAY=:99
           for i in *.stl; do
             T=__tmp__$i
@@ -30,6 +31,7 @@ jobs:
             /usr/bin/openscad -o $b.png --imgsize=200,200 $T
             rm $T
           done
+          ls 
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v2.0.0
