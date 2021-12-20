@@ -36,19 +36,7 @@ jobs:
         with:
           message: ":camera:  Generate png images from STL"
           add: "stl/*.png"
-      # - name: Get changed files
-      #   id: changed-files
-      #   uses: tj-actions/changed-files@v2.0.0
-      - name: List all changed files
-        run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
-      # - name: Pre-commit
-      #   uses: pre-commit/action@v2.0.0
-      #   with:
-      #     extra_args: -v --hook-stage push --files ${{ steps.changed-files.outputs.all_changed_files }}
-      #     token: ${{ secrets.github_token }}
+
   replace_readme:
     runs-on: ubuntu-latest
     name: Replace placeholders in README
