@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install openscad
-        run: sudo apt update && sudo apt install -y openscad
+        run: sudo apt update && sudo apt install -y openscad xvfb
       - name: find openscad
         run: which openscad
       - uses: actions/checkout@v2
