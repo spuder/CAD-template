@@ -15,8 +15,7 @@ jobs:
       - name: find openscad
         run: which openscad
       - name: actions/checkout@v2
-        with:
-          ref: $GITHUB_REF
+      # https://3dprinting.stackexchange.com/a/6048/28932
       - name: Generate png images from STL
         run: |
           ls 
