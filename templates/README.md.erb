@@ -1,0 +1,65 @@
+
+# <%= settings['name'] -%>
+
+<%= settings['description'] %>
+
+<% if settings['fusion_link'] || settings['links'] %>
+## :globe_with_meridians: Links
+
+<% if settings['fusion_link'] %>
+**Autodesk Fusion 360 file**: [<%= settings['fusion_link'] %>](<%= settings['fusion_link'] %>)
+<% end -%>
+
+<% if settings['links'] %>
+<% settings['links'].each do |name, url| -%>
+- **<%= name %>**: [<%= url %>](<%= url -%>)
+<% end -%>
+<% end -%>
+<% end -%>
+
+## :triangular_ruler: CAD files
+
+3d files are located in the [CAD](./CAD) directory.
+- `*.f3d` = Fusion 360 Files
+- `*.stl` = 3d Printable Files
+
+| Filename | STL |
+| --- | --- | 
+<% settings['CAD'].each do |file| -%>
+| [<%= file  %>](./CAD/<%= url_encode(file) %>.stl) | ![](./CAD/<%= url_encode(file) %>.stl.png) |
+<% end -%>
+
+## :notebook: Resources
+<% settings['resources'].each do |key, value| -%>
+
+- [<%= key %>](<%= value %>)
+
+<% end -%>
+
+---
+
+<% if settings['license']['type'].downcase == 'MIT'.downcase -%>
+## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
+[(what does this mean?)](https://choosealicense.com/licenses/mit/)
+
+| Permissions| Conditions | Limitations |
+| --- | --- | --- |
+| 🟢 Commercial Use | 🔵 License and copyright notice| 🔴 Liability | 
+| 🟢 Distribution | | 🔴 Warranty | 
+| 🟢 Modification | |  |
+| 🟢 Private use | |   |
+
+
+<% elsif settings['license']['type'].downcase == 'GPL'.downcase -%>
+## GPL License ![](https://img.shields.io/badge/license-GPL-blue)
+<% else -%>
+## Creative Commons License <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<% end -%>
+
+---
+The contents of this readme were automatically generated from my [:notebook: template](https://github.com/spuder/fusion360-template) 
+```
+make all
+# or
+make clean; make stl; make jpeg; make template
+```

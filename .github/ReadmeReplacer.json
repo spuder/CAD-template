@@ -1,7 +1,0 @@
-[
-    {
-        "search": "{{ REPOSITORY_NAME }}",
-        "replace": "process.env.REPONAME",
-        "eval": true
-    }
-]

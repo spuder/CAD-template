@@ -1,0 +1,19 @@
+---
+name: Changeme
+description: -|
+  foobar
+license: 
+  type: MIT # MIT, GPL
+  owner: Spencer Owen
+  year: 2020
+CAD: 
+  - cube
+resources:
+  foo: https://example.com
+# photos:
+#   - photos/IMG_0987.jpeg
+# fusion_link: herpderp
+links:
+  # Thingiverse: https://www.thingiverse.com/thing:xxxx
+  # Prusa: https://foo.com
+  # GrabCad: https://foo.com
