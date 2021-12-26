@@ -26,7 +26,7 @@
 | Filename | STL | GIF | 
 | --- | --- | --- | 
 <% Dir["CAD/*.stl"].each do |file| %>
-| [CAD/<%= file  %>.stl](./CAD/<%= url_encode(file) %>.stl) | ![](./CAD/<%= url_encode(file) %>.stl.png) | ![](./CAD/<%= url_encode(file) %>.stl.gif) | 
+| [<%= file  %>](./<%= url_encode(file) %>) | ![](./<%= url_encode(file) %>.png) | ![](./<%= url_encode(file) %>.gif) | 
 <% end -%>
 
 ## :notebook: Resources
@@ -48,13 +48,6 @@
 ## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
 [(what does this mean?)](https://choosealicense.com/licenses/mit/)
 
-| Permissions| Conditions | Limitations |
-| --- | --- | --- |
-| 🟢 Commercial Use | 🔵 License and copyright notice| 🔴 Liability | 
-| 🟢 Distribution | | 🔴 Warranty | 
-| 🟢 Modification | |  |
-| 🟢 Private use | |   |
-
 
 <% elsif settings['license']['type'].downcase == 'GPL'.downcase -%>
 ## GPL License ![](https://img.shields.io/badge/license-GPL-blue)
@@ -63,7 +56,15 @@
 <% end -%>
 
 ---
-The contents of this readme were automatically generated from my [:notebook: template](https://github.com/spuder/fusion360-template) 
+## Template
+The contents of this readme were automatically generated from this [:notebook: template](https://github.com/spuder/CAD-template). 
+
+Use this template yourself by clicking here: 
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/generate" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-repo-template" data-size="large" aria-label="Use this template ntkme/github-buttons on GitHub">Use this template</a>
+
+
 ```
 make all
 # or

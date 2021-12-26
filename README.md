@@ -14,6 +14,11 @@ Do not edit README.md directly as it will be overwritten..
 - **Thingiverse**: [https://www.thingiverse.com/thing:xxxx](https://www.thingiverse.com/thing:xxxx)
 - **Prusa**: [https://foo.com](https://foo.com)
 - **GrabCad**: [https://foo.com](https://foo.com)
+- **Hackster.io**: [https://hackster.io/foo](https://hackster.io/foo)
+- **Hackaday**: [https://hackaday.io/foo](https://hackaday.io/foo)
+- **Reddit**: [https://www.reddit.com/r/foo](https://www.reddit.com/r/foo)
+- **Github**: [https://github.com/foo](https://github.com/foo)
+- **Blog**: [https://foo.com](https://foo.com)
 
 ## :triangular_ruler: CAD files
 
@@ -24,7 +29,7 @@ Do not edit README.md directly as it will be overwritten..
 | Filename | STL | GIF | 
 | --- | --- | --- | 
 
-| [CAD/CAD/cube.stl.stl](./CAD/CAD%2Fcube.stl.stl) | ![](./CAD/CAD%2Fcube.stl.stl.png) | ![](./CAD/CAD%2Fcube.stl.stl.gif) | 
+| [CAD/cube.stl](./CAD%2Fcube.stl) | ![](./CAD%2Fcube.stl.png) | ![](./CAD%2Fcube.stl.gif) | 
 
 ## :notebook: Resources
 
@@ -34,11 +39,11 @@ Do not edit README.md directly as it will be overwritten..
 ## :camera: Photos
 
 
-![](photos/1000_F_135017062_OcNbglmMBMS9GI9qtb6o4OeXjIJBe7vt.jpg)
-
-
-
 ![](photos/foo.jpg)
+
+
+
+![](photos/bar.jpg)
 
 
 ---
@@ -46,17 +51,18 @@ Do not edit README.md directly as it will be overwritten..
 ## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
 [(what does this mean?)](https://choosealicense.com/licenses/mit/)
 
-| Permissions| Conditions | Limitations |
-| --- | --- | --- |
-| 🟢 Commercial Use | 🔵 License and copyright notice| 🔴 Liability | 
-| 🟢 Distribution | | 🔴 Warranty | 
-| 🟢 Modification | |  |
-| 🟢 Private use | |   |
-
 
 
 ---
-The contents of this readme were automatically generated from my [:notebook: template](https://github.com/spuder/fusion360-template) 
+## Template
+The contents of this readme were automatically generated from this [:notebook: template](https://github.com/spuder/CAD-template). 
+
+Use this template yourself by clicking here: 
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons/generate" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-repo-template" data-size="large" aria-label="Use this template ntkme/github-buttons on GitHub">Use this template</a>
+
+
 ```
 make all
 # or
