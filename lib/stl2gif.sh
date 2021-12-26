@@ -6,7 +6,7 @@ find ~+ -type f -name "*.stl" -print0 | while read -d '' -r file; do
     echo "Creating temp directory ${MYTMPDIR}"
 
     #TODO: replace with spuder/openscad docker container
-    /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD /dev/null -D '$vpd = 100;' -D '$vpr = [60, 0, 360 * $t];' -o "${MYTMPDIR}/foo.png"  -D "import(\"$file\");" --imgsize=300,300 --animate 60 --colorscheme "Tomorrow Night" --viewall
+    /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD /dev/null -D '$vpr = [60, 0, 360 * $t];' -o "${MYTMPDIR}/foo.png"  -D "import(\"$file\");" --imgsize=300,300 --animate 60 --colorscheme "Tomorrow Night" --viewall --autocenter
 
     #TODO: replace with docker container
     yes | ffmpeg \
