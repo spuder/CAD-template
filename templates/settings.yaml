@@ -1,17 +1,16 @@
 ---
 name: Changeme
 description: |
-  To change this file, modify settings.yaml, then run `make all`
+  To change this file, modify settings.yaml and templates/README.md, then run `make all`
+  Do not edit README.md directly as it will be overwritten..
 license: 
   type: MIT # MIT, GPL
   owner: Spencer Owen
   year: 2020
-CAD: 
-  - cube
+
 resources:
   foo: https://example.com
-# photos:
-#   - photos/IMG_0987.jpeg
+
 # fusion_link: herpderp
 links:
   # Thingiverse: https://www.thingiverse.com/thing:xxxx

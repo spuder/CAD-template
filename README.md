@@ -1,6 +1,7 @@
 
 # Changeme
-To change this file, modify settings.yaml, then run `make all`
+To change this file, modify settings.yaml and templates/README.md, then run `make all`
+Do not edit README.md directly as it will be overwritten..
 
 
 
@@ -12,7 +13,8 @@ To change this file, modify settings.yaml, then run `make all`
 
 | Filename | STL | GIF | 
 | --- | --- | --- | 
-| [CAD/cube.stl](./CAD/cube.stl) | ![](./CAD/cube.stl.png) | ![](./CAD/cube.stl.gif) | 
+
+| [CAD/CAD/cube.stl.stl](./CAD/CAD%2Fcube.stl.stl) | ![](./CAD/CAD%2Fcube.stl.stl.png) | ![](./CAD/CAD%2Fcube.stl.stl.gif) | 
 
 ## :notebook: Resources
 
