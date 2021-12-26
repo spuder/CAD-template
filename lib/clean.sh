@@ -6,4 +6,5 @@ find templates -type f -name *.erb -print0 | while read -d '' -r file; do
     # Remove .erb extension and strip path to just filename
     file=$(basename ${file%.erb})
     echo "Removing:  $file"
+    rm -f "./$file"
 done

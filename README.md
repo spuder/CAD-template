@@ -1,6 +1,7 @@
 
 # Changeme
--| foobar
+To change this file, modify settings.yaml, then run `make all`
+
 
 
 ## :triangular_ruler: CAD files
@@ -9,13 +10,23 @@
 - `*.f3d` = Fusion 360 Files
 - `*.stl` = 3d Printable Files
 
-| Filename | STL |
-| --- | --- | 
-| [cube](./CAD/cube.stl) | ![](./CAD/cube.stl.png) |
+| Filename | STL | GIF | 
+| --- | --- | --- | 
+| [CAD/cube.stl](./CAD/cube.stl) | ![](./CAD/cube.stl.png) | ![](./CAD/cube.stl.gif) | 
 
 ## :notebook: Resources
 
 - [foo](https://example.com)
+
+
+## :camera: Photos
+
+
+![](photos/1000_F_135017062_OcNbglmMBMS9GI9qtb6o4OeXjIJBe7vt.jpg)
+
+
+
+![](photos/foo.jpg)
 
 
 ---

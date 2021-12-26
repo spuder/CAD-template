@@ -1,7 +1,7 @@
 ---
 name: Changeme
-description: -|
-  foobar
+description: |
+  To change this file, modify settings.yaml, then run `make all`
 license: 
   type: MIT # MIT, GPL
   owner: Spencer Owen

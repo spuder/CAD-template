@@ -23,10 +23,10 @@
 - `*.f3d` = Fusion 360 Files
 - `*.stl` = 3d Printable Files
 
-| Filename | STL |
-| --- | --- | 
+| Filename | STL | GIF | 
+| --- | --- | --- | 
 <% settings['CAD'].each do |file| -%>
-| [<%= file  %>](./CAD/<%= url_encode(file) %>.stl) | ![](./CAD/<%= url_encode(file) %>.stl.png) |
+| [CAD/<%= file  %>.stl](./CAD/<%= url_encode(file) %>.stl) | ![](./CAD/<%= url_encode(file) %>.stl.png) | ![](./CAD/<%= url_encode(file) %>.stl.gif) | 
 <% end -%>
 
 ## :notebook: Resources
@@ -36,6 +36,12 @@
 
 <% end -%>
 
+## :camera: Photos
+<% Dir["photos/*"].each do |file| %>
+
+![](<%= file %>)
+
+<% end %>
 ---
 
 <% if settings['license']['type'].downcase == 'MIT'.downcase -%>
