@@ -25,7 +25,7 @@
 
 | Filename | STL | GIF | 
 | --- | --- | --- | 
-<% Dir["CAD/*.stl"].each do |file| %>
+<% Dir["CAD/*.stl"].each do |file| -%>
 | [<%= file  %>](./<%= url_encode(file) %>) | ![](./<%= url_encode(file) %>.png) | ![](./<%= url_encode(file) %>.gif) | 
 <% end -%>
 

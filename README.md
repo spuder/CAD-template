@@ -28,8 +28,8 @@ Do not edit README.md directly as it will be overwritten..
 
 | Filename | STL | GIF | 
 | --- | --- | --- | 
-
 | [CAD/cube.stl](./CAD%2Fcube.stl) | ![](./CAD%2Fcube.stl.png) | ![](./CAD%2Fcube.stl.gif) | 
+| [CAD/sphere.stl](./CAD%2Fsphere.stl) | ![](./CAD%2Fsphere.stl.png) | ![](./CAD%2Fsphere.stl.gif) | 
 
 ## :notebook: Resources
 
