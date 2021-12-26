@@ -1,7 +1,7 @@
 # Usage
 # make clean 	# deletes generated README.md file
-# make preview 	# uses openscad to generate a PNG preview of an STL file
-# make compress # converts HEIC files to JPEG for easier uploading to thingiverse
+# make all # Run specified tasks
+
 
 # Note: Makefiles require that you use 'tabs' not 'spaces'
 all: clean stl jpeg gif template

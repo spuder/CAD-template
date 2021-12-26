@@ -5,6 +5,16 @@ Do not edit README.md directly as it will be overwritten..
 
 
 
+## :globe_with_meridians: Links
+
+
+**Autodesk Fusion 360 file**: [https://autodesk.example.com](https://autodesk.example.com)
+
+
+- **Thingiverse**: [https://www.thingiverse.com/thing:xxxx](https://www.thingiverse.com/thing:xxxx)
+- **Prusa**: [https://foo.com](https://foo.com)
+- **GrabCad**: [https://foo.com](https://foo.com)
+
 ## :triangular_ruler: CAD files
 
 3d files are located in the [CAD](./CAD) directory.

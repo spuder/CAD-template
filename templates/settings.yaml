@@ -7,12 +7,10 @@ license:
   type: MIT # MIT, GPL
   owner: Spencer Owen
   year: 2020
-
 resources:
   foo: https://example.com
-
-# fusion_link: herpderp
+fusion_link: https://autodesk.example.com #comment out if no fusion link
 links:
-  # Thingiverse: https://www.thingiverse.com/thing:xxxx
-  # Prusa: https://foo.com
-  # GrabCad: https://foo.com
+  Thingiverse: https://www.thingiverse.com/thing:xxxx
+  Prusa: https://foo.com
+  GrabCad: https://foo.com
