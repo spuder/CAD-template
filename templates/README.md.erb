@@ -39,7 +39,7 @@
 ## :camera: Photos
 <% Dir["photos/*"].each do |file| %>
 
-![](<%= file %>)
+![](<%= url_encode(file) %>)
 
 <% end %>
 ---
