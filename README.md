@@ -45,7 +45,6 @@ make all
 
 ---
 
-
 :warning: License missing. Please modify settings.yaml with desired license
 e.g: 
 ```
