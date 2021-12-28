@@ -1,7 +1,12 @@
 
 # Changeme
-To change this file, modify settings.yaml and templates/README.md, then run `make all`
-Do not edit README.md directly as it will be overwritten..
+To change this file, modify settings.yaml and templates/README.md, then run 
+```
+git submodule update -init
+make all
+```
+
+**Do not edit README.md directly as it will be overwritten..**
 
 
 
@@ -37,11 +42,16 @@ Do not edit README.md directly as it will be overwritten..
 ## :camera: Photos
 ![](photos%2Ffoo.jpg)
 ![](photos%2Fbar.jpg)
----
+
 ---
 
-## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
-[(what does this mean?)](https://choosealicense.com/licenses/mit/)
+
+:warning: License missing. Please modify settings.yaml with desired license
+e.g: 
+```
+license: 
+  type: CC-Attribution
+```
 
 
 ---
