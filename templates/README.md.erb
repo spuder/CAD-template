@@ -31,17 +31,14 @@
 
 ## :notebook: Resources
 <% settings['resources'].each do |key, value| -%>
-
 - [<%= key %>](<%= value %>)
-
 <% end -%>
 
 ## :camera: Photos
-<% Dir["photos/*"].each do |file| %>
-
+<% Dir["photos/*"].each do |file| -%>
 ![](<%= url_encode(file) %>)
-
-<% end %>
+<% end -%>
+---
 ---
 
 <% if settings['license']['type'].downcase == 'MIT'.downcase -%>

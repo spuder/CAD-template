@@ -32,20 +32,12 @@ Do not edit README.md directly as it will be overwritten..
 | [CAD/sphere.stl](./CAD%2Fsphere.stl) | ![](./CAD%2Fsphere.stl.png) | ![](./CAD%2Fsphere.stl.gif) | 
 
 ## :notebook: Resources
-
 - [foo](https://example.com)
 
-
 ## :camera: Photos
-
-
 ![](photos%2Ffoo.jpg)
-
-
-
 ![](photos%2Fbar.jpg)
-
-
+---
 ---
 
 ## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
@@ -54,13 +46,8 @@ Do not edit README.md directly as it will be overwritten..
 
 ---
 ## Template
-The contents of this readme were automatically generated from this [:notebook: template](https://github.com/spuder/CAD-template). 
-
-Use this template yourself by clicking here: 
-
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ntkme/github-buttons/generate" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-repo-template" data-size="large" aria-label="Use this template ntkme/github-buttons on GitHub">Use this template</a>
-
+The contents of this readme were automatically generated from [spuder/CAD-template](https://github.com/spuder/CAD-template). 
+[Click here](https://github.com/spuder/CAD-template/generate) to fork and use this template
 
 ```
 make all
