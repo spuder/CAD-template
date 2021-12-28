@@ -4,14 +4,14 @@
 
 
 # Note: Makefiles require that you use 'tabs' not 'spaces'
-all: clean stl jpeg gif template
+all: clean png jpeg gif template
 clean:
-	./lib/clean.sh
-stl:
-	./lib/stl2png.sh
+	./CAD-scripts/clean.sh
+png:
+	./CAD-scripts/stl2png.sh
 jpeg:
-	./lib/heic2jpeg.sh
+	./CAD-scripts/heic2jpeg.sh
 gif:
-	./lib/stl2gif.sh
+	./CAD-scripts/stl2gif.sh
 template:
-	./lib/yaml2md.rb
+	./CAD-scripts/yaml2md.rb

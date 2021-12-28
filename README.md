@@ -39,18 +39,17 @@ Do not edit README.md directly as it will be overwritten..
 ## :camera: Photos
 
 
-![](photos/foo.jpg)
+![](photos%2Ffoo.jpg)
 
 
 
-![](photos/bar.jpg)
+![](photos%2Fbar.jpg)
 
 
 ---
 
 ## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
 [(what does this mean?)](https://choosealicense.com/licenses/mit/)
-
 
 
 ---
@@ -65,6 +64,4 @@ Use this template yourself by clicking here:
 
 ```
 make all
-# or
-make clean; make stl; make jpeg; make template
 ```
