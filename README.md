@@ -33,8 +33,8 @@ make all
 
 | Filename | STL | GIF | 
 | --- | --- | --- | 
-| [CAD/cube.stl](./CAD%2Fcube.stl) | ![](./CAD%2Fcube.stl.png) | ![](./CAD%2Fcube.stl.gif) | 
-| [CAD/sphere.stl](./CAD%2Fsphere.stl) | ![](./CAD%2Fsphere.stl.png) | ![](./CAD%2Fsphere.stl.gif) | 
+| [CAD/cube.stl](./CAD%2Fcube.stl) | ![](./CAD%2Fcube.png) | ![](./CAD%2Fcube.gif) | 
+| [CAD/sphere.stl](./CAD%2Fsphere.stl) | ![](./CAD%2Fsphere.png) | ![](./CAD%2Fsphere.gif) | 
 
 ## :notebook: Resources
 - [foo](https://example.com)
