@@ -17,7 +17,7 @@ make all
 
 
 - **Thingiverse**: [https://www.thingiverse.com/thing:xxxx](https://www.thingiverse.com/thing:xxxx)
-- **Prusa**: [https://foo.com](https://foo.com)
+- **Printables**: [https://foo.com](https://foo.com)
 - **GrabCad**: [https://foo.com](https://foo.com)
 - **Hackster.io**: [https://hackster.io/foo](https://hackster.io/foo)
 - **Hackaday**: [https://hackaday.io/foo](https://hackaday.io/foo)
