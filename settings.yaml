@@ -17,7 +17,7 @@ resources:
 fusion_link: https://autodesk.example.com #comment out if no fusion link
 links:
   Thingiverse: https://www.thingiverse.com/thing:xxxx
-  Prusa: https://foo.com
+  Printables: https://foo.com
   GrabCad: https://foo.com
   Hackster.io: https://hackster.io/foo
   Hackaday: https://hackaday.io/foo
